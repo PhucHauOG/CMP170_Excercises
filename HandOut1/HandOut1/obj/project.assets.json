@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\HandOut1\\HandOut1\\HandOut1.csproj",
+      "projectUniqueName": "D:\\New folder\\HandOut1\\HandOut1\\HandOut1.csproj",
       "projectName": "HandOut1",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\HandOut1\\HandOut1\\HandOut1.csproj",
+      "projectPath": "D:\\New folder\\HandOut1\\HandOut1\\HandOut1.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\HandOut1\\HandOut1\\obj\\",
+      "outputPath": "D:\\New folder\\HandOut1\\HandOut1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

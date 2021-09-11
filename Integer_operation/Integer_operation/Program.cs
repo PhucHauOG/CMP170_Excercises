@@ -19,7 +19,7 @@ namespace Integer_operation
             sum = x + y;
             sub = x - y;
             mul = x * y;
-            div = x / y;
+            div = (float) x / y;
 
             Console.WriteLine("Sum\t = " + sum);
             Console.WriteLine("Subtract = " + sub);

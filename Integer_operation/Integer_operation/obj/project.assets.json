@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\Integer_operation\\Integer_operation\\Integer_operation.csproj",
+      "projectUniqueName": "D:\\New folder\\Integer_operation\\Integer_operation\\Integer_operation.csproj",
       "projectName": "Integer_operation",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\Integer_operation\\Integer_operation\\Integer_operation.csproj",
+      "projectPath": "D:\\New folder\\Integer_operation\\Integer_operation\\Integer_operation.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\Integer_operation\\Integer_operation\\obj\\",
+      "outputPath": "D:\\New folder\\Integer_operation\\Integer_operation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12,3 +12,17 @@ C:\Users\admin\source\repos\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.c
 C:\Users\admin\source\repos\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.dll
 C:\Users\admin\source\repos\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.pdb
 C:\Users\admin\source\repos\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.genruntimeconfig.cache
+D:\New folder\HandOut1\HandOut1\bin\Debug\netcoreapp3.1\HandOut1.exe
+D:\New folder\HandOut1\HandOut1\bin\Debug\netcoreapp3.1\HandOut1.deps.json
+D:\New folder\HandOut1\HandOut1\bin\Debug\netcoreapp3.1\HandOut1.runtimeconfig.json
+D:\New folder\HandOut1\HandOut1\bin\Debug\netcoreapp3.1\HandOut1.runtimeconfig.dev.json
+D:\New folder\HandOut1\HandOut1\bin\Debug\netcoreapp3.1\HandOut1.dll
+D:\New folder\HandOut1\HandOut1\bin\Debug\netcoreapp3.1\HandOut1.pdb
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.csproj.AssemblyReference.cache
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.AssemblyInfoInputs.cache
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.AssemblyInfo.cs
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.csproj.CoreCompileInputs.cache
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.dll
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.pdb
+D:\New folder\HandOut1\HandOut1\obj\Debug\netcoreapp3.1\HandOut1.genruntimeconfig.cache
