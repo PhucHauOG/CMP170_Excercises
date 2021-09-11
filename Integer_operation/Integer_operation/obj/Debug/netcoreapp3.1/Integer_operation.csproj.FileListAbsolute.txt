@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.AssemblyInfo.cs
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\bin\Debug\netcoreapp3.1\Integer_operation.exe
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\bin\Debug\netcoreapp3.1\Integer_operation.deps.json
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\bin\Debug\netcoreapp3.1\Integer_operation.runtimeconfig.json
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\bin\Debug\netcoreapp3.1\Integer_operation.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\bin\Debug\netcoreapp3.1\Integer_operation.dll
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\bin\Debug\netcoreapp3.1\Integer_operation.pdb
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.dll
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.pdb
+C:\Users\admin\source\repos\Integer_operation\Integer_operation\obj\Debug\netcoreapp3.1\Integer_operation.genruntimeconfig.cache
