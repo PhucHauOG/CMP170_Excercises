@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\bin\Debug\netcoreapp3.1\Hands-on2.exe
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\bin\Debug\netcoreapp3.1\Hands-on2.deps.json
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\bin\Debug\netcoreapp3.1\Hands-on2.runtimeconfig.json
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\bin\Debug\netcoreapp3.1\Hands-on2.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\bin\Debug\netcoreapp3.1\Hands-on2.dll
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\bin\Debug\netcoreapp3.1\Hands-on2.pdb
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.AssemblyInfo.cs
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.dll
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.pdb
+C:\Users\admin\source\repos\Hands-on2\Hands-on2\obj\Debug\netcoreapp3.1\Hands-on2.genruntimeconfig.cache
