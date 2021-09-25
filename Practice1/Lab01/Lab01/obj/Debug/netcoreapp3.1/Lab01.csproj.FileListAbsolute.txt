@@ -1,0 +1,14 @@
+D:\repo\Practice1\Lab01\Lab01\bin\Debug\netcoreapp3.1\Lab01.exe
+D:\repo\Practice1\Lab01\Lab01\bin\Debug\netcoreapp3.1\Lab01.deps.json
+D:\repo\Practice1\Lab01\Lab01\bin\Debug\netcoreapp3.1\Lab01.runtimeconfig.json
+D:\repo\Practice1\Lab01\Lab01\bin\Debug\netcoreapp3.1\Lab01.runtimeconfig.dev.json
+D:\repo\Practice1\Lab01\Lab01\bin\Debug\netcoreapp3.1\Lab01.dll
+D:\repo\Practice1\Lab01\Lab01\bin\Debug\netcoreapp3.1\Lab01.pdb
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.csproj.AssemblyReference.cache
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.AssemblyInfoInputs.cache
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.AssemblyInfo.cs
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.csproj.CoreCompileInputs.cache
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.dll
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.pdb
+D:\repo\Practice1\Lab01\Lab01\obj\Debug\netcoreapp3.1\Lab01.genruntimeconfig.cache

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\Hands-on2\\Hands-on2\\Hands-on2.csproj",
+      "projectUniqueName": "D:\\repo\\Hands-on2\\Hands-on2\\Hands-on2.csproj",
       "projectName": "Hands-on2",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\Hands-on2\\Hands-on2\\Hands-on2.csproj",
+      "projectPath": "D:\\repo\\Hands-on2\\Hands-on2\\Hands-on2.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\Hands-on2\\Hands-on2\\obj\\",
+      "outputPath": "D:\\repo\\Hands-on2\\Hands-on2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
