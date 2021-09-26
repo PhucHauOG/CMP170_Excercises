@@ -1,0 +1,14 @@
+D:\repo\Ex3T5\Ex3T5\bin\Debug\netcoreapp3.1\Ex3T5.exe
+D:\repo\Ex3T5\Ex3T5\bin\Debug\netcoreapp3.1\Ex3T5.deps.json
+D:\repo\Ex3T5\Ex3T5\bin\Debug\netcoreapp3.1\Ex3T5.runtimeconfig.json
+D:\repo\Ex3T5\Ex3T5\bin\Debug\netcoreapp3.1\Ex3T5.runtimeconfig.dev.json
+D:\repo\Ex3T5\Ex3T5\bin\Debug\netcoreapp3.1\Ex3T5.dll
+D:\repo\Ex3T5\Ex3T5\bin\Debug\netcoreapp3.1\Ex3T5.pdb
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.csproj.AssemblyReference.cache
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.AssemblyInfoInputs.cache
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.AssemblyInfo.cs
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.csproj.CoreCompileInputs.cache
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.dll
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.pdb
+D:\repo\Ex3T5\Ex3T5\obj\Debug\netcoreapp3.1\Ex3T5.genruntimeconfig.cache
