@@ -25,4 +25,3 @@ D:\repo\Practise3\Exercise1\Exercise1\obj\Debug\net5.0-windows\Exercise1.genrunt
 D:\repo\Practise3\Exercise1\Exercise1\bin\Debug\net5.0-windows\Student_Data.json
 D:\repo\Practise3\Exercise1\Exercise1\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 D:\repo\Practise3\Exercise1\Exercise1\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
-D:\repo\Practise3\Exercise1\Exercise1\obj\Debug\net5.0-windows\Exercise1.csproj.CopyComplete

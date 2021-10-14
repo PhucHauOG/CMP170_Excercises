@@ -1,0 +1,15 @@
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Ex6T7.exe
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Student_data_Handon.json
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Ex6T7.deps.json
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Ex6T7.runtimeconfig.json
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Ex6T7.runtimeconfig.dev.json
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Ex6T7.dll
+D:\repo\Ex6T7\Ex6T7\bin\Debug\netcoreapp3.1\Ex6T7.pdb
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.csproj.AssemblyReference.cache
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.AssemblyInfoInputs.cache
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.AssemblyInfo.cs
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.csproj.CoreCompileInputs.cache
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.dll
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.pdb
+D:\repo\Ex6T7\Ex6T7\obj\Debug\netcoreapp3.1\Ex6T7.genruntimeconfig.cache
