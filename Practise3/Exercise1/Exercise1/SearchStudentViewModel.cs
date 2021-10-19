@@ -63,6 +63,19 @@ namespace Exercise1
             var data = File.ReadAllText("Student_Data.json");
             var students = JsonConvert.DeserializeObject<List<Student>>(data);
             Students = new ObservableCollection<Student>(students);
+            OpenDetailCommand = new ConditionalCommand(x => DoOpenDetail());
         }
+
+        public void DoOpenDetail() {
+            var studentDetailViewModel = new StudentDetailViewModel(SelectedStudent);
+            Student_Detail studentDetail = new Student_Detail();
+            studentDetail.DataContext = studentDetailViewModel;
+            studentDetail.ShowDialog();
+        }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
     }
 }
