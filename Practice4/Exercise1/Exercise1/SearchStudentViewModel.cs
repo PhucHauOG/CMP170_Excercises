@@ -62,23 +62,18 @@ namespace Exercise1
         private IStudentServive m_studentSrv;
         public SearchStudentViewModel() 
         {
-            var data = File.ReadAllText("Student_Data.json");
-            var students = JsonConvert.DeserializeObject<List<Student>>(data);
-            Students = new ObservableCollection<Student>(students);
-            OpenDetailCommand = new ConditionalCommand(x => DoOpenDetail());
-        }
-
-        public void DoOpenDetail() {
-            var studentDetailViewModel = new StudentDetailViewModel(SelectedStudent);
-            Student_Detail studentDetail = new Student_Detail();
-            studentDetail.DataContext = studentDetailViewModel;
-            studentDetail.ShowDialog();
             m_studentSrv = new StudentServiceWithFile();
             Students = new ObservableCollection<Student>(m_studentSrv.SearchStudent(string.Empty, string.Empty));
 
             OpenDetailCommand = new ConditionalCommand(x => DoOpenDetail());
             SearchCommand = new ConditionalCommand(x => DoSearch());
             ResetCommand = new ConditionalCommand(x => DoReset());
+        }
+        public void DoOpenDetail() {
+            var StudentDetailViewModel = new StudentDetailViewModel(m_studentSrv, SelectedStudent.StudentId);
+            Student_Detail student_Detail = new Student_Detail();
+            student_Detail.DataContext = StudentDetailViewModel;
+            student_Detail.ShowDialog();
         }
         public void DoReset()
         {
@@ -88,11 +83,11 @@ namespace Exercise1
 
         private void DoSearch()
         {
-            Student.Clear();
+            Students.Clear();
             var result = m_studentSrv.SearchStudent(SearchKeyword, SelectedClass);
             foreach (var s in result)
             {
-                Students.Add();
+                Students.Add(s);
             }
         }
         public override string ToString()

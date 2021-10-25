@@ -109,8 +109,8 @@
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
-                <TextBox Style="{StaticResource styleTextBox}"></TextBox>
-                <ComboBox Style="{StaticResource StyleComboBox}">
+                <TextBox Style="{StaticResource styleTextBox}" Text="{Binding Path=SearchKeyword}"></TextBox>
+                <ComboBox Style="{StaticResource StyleComboBox}" Text="{Binding Path=SelectedClass}">
                     <ComboBoxItem IsSelected="True">19DTHQA1</ComboBoxItem>
                     <ComboBoxItem>19DTHQA2</ComboBoxItem>
                     <ComboBoxItem>19DTHQA3</ComboBoxItem>

@@ -7,75 +7,46 @@ using static Exercise1.SearchStudentViewModel;
 
 namespace Exercise1
 {
-    class StudentDetailViewModel : BaseViewModel
+    public class StudentDetailViewModel : BaseViewModel
     {
-        private int studentiddetail;
-        public int StudentIdDetail 
-        { 
-            get => studentiddetail;
-            set 
+        private int studentId;
+        private string firstname;
+        private string lastname;
+        private string gender;
+        private bool ismale;
+        private string classdetail;
+        private string email;
+
+        public int StudentIdDetail
+        {
+            get => studentId; set
             {
-                studentiddetail = value;
+                studentId = value;
                 OnPropertyChanged(nameof(StudentIdDetail));
             }
         }
 
-        private string firstnamedetail;
-        public string FirstNameDetail 
+        public String FirstNameDetail
         {
-            get => firstnamedetail;
+            get => firstname;
             set
             {
-                firstnamedetail = value;
+                firstname = value;
                 OnPropertyChanged(nameof(FirstNameDetail));
             }
         }
-
-        private string lastnamedetail;
-        public string LastNameDetail 
-        { 
-            get => lastnamedetail;
-            set 
+        public String LastNameDetail
+        {
+            get => lastname;
+            set
             {
-                lastnamedetail = value;
+                lastname = value;
                 OnPropertyChanged(nameof(LastNameDetail));
             }
         }
-
-        private string emaildetail;
-        public string EmailDetail
-        {
-            get => emaildetail;
-            set 
-            {
-                emaildetail = value;
-                OnPropertyChanged(nameof(EmailDetail));
-            }
-        }
-
-        private string classdetail;
-        public string ClassDetail 
-        {
-            get => classdetail;
-            set 
-            {
-                classdetail = value;
-                OnPropertyChanged(nameof(ClassDetail));
-            }
-        }
-
-        private string genderdetail;
-        public string GenderDetail 
-        {
-            get => genderdetail;
-            set
-            {
-                genderdetail = value;
-                OnPropertyChanged(nameof(GenderDetail));
-            }
-        }
-
-        private bool ismale;
+        public String GenderDetail { get => gender; set => gender = value; }
+        public String ClassDetail { get => classdetail ; set => classdetail = value; }
+        public String EmailDetail { get => email; set => email = value; }
         public Boolean IsMale
         {
             get => ismale;
@@ -86,24 +57,52 @@ namespace Exercise1
             }
         }
 
-        public Boolean IsFemale
+        public ConditionalCommand SaveCommand { get; }
+        public ConditionalCommand CancelCommand { get; }
+
+        public Boolean IsFeMale
         {
             get => !ismale;
             set
             {
                 ismale = !value;
-                OnPropertyChanged(nameof(IsFemale));
+                OnPropertyChanged(nameof(IsFeMale));
             }
         }
-        public StudentDetailViewModel(Student student) 
+
+        private readonly IStudentServive m_studentService;
+        public StudentDetailViewModel(IStudentServive studentService, int studentId)
         {
+            m_studentService = studentService;
+
+            var student = m_studentService.LoadStudentById(studentId);
             StudentIdDetail = student.StudentId;
             FirstNameDetail = student.FirstName;
             LastNameDetail = student.LastName;
-            EmailDetail = student.Email;
-            ClassDetail = student.Class;
             GenderDetail = student.Gender;
-            IsMale = (GenderDetail == "Male");
+            ClassDetail = student.Class;
+            EmailDetail = student.Email;
+
+            SaveCommand = new ConditionalCommand(x => DoSave());
+            SaveCommand = new ConditionalCommand(x => DoCancel());
+        }
+
+        public Student m_student;
+        private void DoSave()
+        {
+            m_student.StudentId = StudentIdDetail;
+            m_student.FirstName = FirstNameDetail;
+            m_student.LastName = LastNameDetail;
+            m_student.Email = EmailDetail;
+            m_student.Gender = GenderDetail;
+            m_student.Class = ClassDetail;
+            m_studentService.UpdateOrCreateStudent(m_student); ;
+        }
+        public event EventHandler CloseRequest;
+        private void DoCancel()
+        {
+            var handler = CloseRequest;
+            if (handler != null) handler(this, EventArgs.Empty); ;
         }
     }
 }

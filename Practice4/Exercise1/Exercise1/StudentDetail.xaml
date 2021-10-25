@@ -44,8 +44,8 @@
         <TextBox Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Margin="5" BorderThickness="1" Text="{Binding Path=FirstNameDetail}"></TextBox>
         <TextBox Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Margin="5" BorderThickness="1" Text="{Binding Path=LastNameDetail}"></TextBox>
 
-        <RadioButton Content="Male"   Grid.Column="1"  Grid.Row="3" VerticalAlignment="Top" IsChecked="{Binding IsMale}"   Margin="5,5,-5,0"/>
-        <RadioButton Content="Female" Grid.Column="1"  Grid.Row="3" VerticalAlignment="Top" IsChecked="{Binding IsFemale}" Margin="5,25,-5,0"/>
+        <RadioButton Content="Male"   Grid.Column="1"  Grid.Row="3" VerticalAlignment="Top" IsChecked="{Binding Path=IsMale}"   Margin="5,5,-5,0"/>
+        <RadioButton Content="Female" Grid.Column="1"  Grid.Row="3" VerticalAlignment="Top" IsChecked="{Binding Path=IsFeMale}" Margin="5,25,-5,0"/>
 
         <ComboBox Grid.Column="1" Grid.Row="4" Margin="5" VerticalAlignment="Center" Text="{Binding Path=ClassDetail}">
             <ComboBoxItem IsSelected="true" Content="{Binding Path=Class}"></ComboBoxItem>
