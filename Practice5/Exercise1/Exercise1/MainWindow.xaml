@@ -59,6 +59,7 @@
                         <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
+                        <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
@@ -70,6 +71,8 @@
                     <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=FirstName}"/>
                     <TextBlock Grid.Row="2" Grid.Column="0" Text="LastName:"/>
                     <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=LastName}"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Gender:"/>
+                    <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Path=Gender}"/>
                 </Grid>
             </Border>
         </DataTemplate>

@@ -70,7 +70,7 @@ namespace Exercise1
             }
         }
 
-        private readonly IStudentServive m_studentService;
+        private IStudentServive m_studentService;
         public StudentDetailViewModel(IStudentServive studentService, int studentId)
         {
             m_studentService = studentService;
@@ -83,13 +83,14 @@ namespace Exercise1
             ClassDetail = student.Class;
             EmailDetail = student.Email;
 
-            SaveCommand = new ConditionalCommand(x => DoSave());
+            SaveCommand = new ConditionalCommand(x => DoSave(studentId));
             CancelCommand = new ConditionalCommand(x => DoCancel());
         }
 
-        public Student m_student;
-        private void DoSave()
+        
+        private void DoSave(int id)
         {
+            var m_student = new m_studentService.LoadStudentById(id);
             m_student.StudentId = StudentIdDetail;
             m_student.FirstName = FirstNameDetail;
             m_student.LastName = LastNameDetail;
