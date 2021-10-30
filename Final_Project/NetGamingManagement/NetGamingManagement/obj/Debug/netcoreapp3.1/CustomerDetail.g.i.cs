@@ -53,7 +53,7 @@ namespace NetGamingManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NetGamingManagement;component/customerdetail.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NetGamingManagement;V1.0.0.0;component/customerdetail.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CustomerDetail.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
